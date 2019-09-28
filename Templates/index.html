@@ -26,7 +26,10 @@ http://www.tooplate.com/view/2111-pro-line
     <div class="container" id="home">
       <div class="col-12 text-center">
         <div class="tm-page-header">
-          <img src="../static/img/logo_mini.png" style="width:50%;">  
+          <img  src="../static/img/logo_mini.png" 
+          style=" max-width: 320px;
+
+                ">  
         </div>
       </div>
     </div>
@@ -57,19 +60,19 @@ http://www.tooplate.com/view/2111-pro-line
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#features">Info</a>
+                    <a class="nav-link" href="#features" style="color:#6CAE79;">Info</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#activities">Actividades</a>
+                    <a class="nav-link" style="color:#6CAE79;" href="#activities">Actividades</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#company">¿Cómo entro?</a>
+                    <a class="nav-link" style="color:#6CAE79;" href="#company">¿Cómo entro?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contacto</a>
+                    <a class="nav-link" style="color:#6CAE79;" href="#contact">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link external" target="_blank" href="https://www.facebook.com/DavidWeroBubu"><i style="font-size: 30px;" class="fab fa-facebook"></i></a>
+                    <a class="nav-link external" target="_blank" href="https://www.facebook.com/DavidWeroBubu"><i style="font-size: 30px; color:#6CAE79;" class="fab fa-facebook"></i></a>
                   </li>
                 </ul>
               </div>
@@ -142,7 +145,7 @@ http://www.tooplate.com/view/2111-pro-line
         <div class="col-lg-6">
           <div class="tm-activity-block">
             <div class="tm-activity-img-container">
-              <img src="../static/img/img-01.jpg" alt="Image" class="tm-activity-img" />
+              <img src="../static/img/img-01.jpg" style="width:180px; height: 180px;" alt="Image" class="tm-activity-img" />
             </div>
             <div class="tm-activity-block-text">
               <h3 class="tm-text-blue">Plantar árboles</h3>
@@ -155,12 +158,12 @@ http://www.tooplate.com/view/2111-pro-line
         <div class="col-lg-6">
           <div class="tm-activity-block mr-lg-0 ml-lg-auto">
             <div class="tm-activity-img-container">
-              <img src="../static/img/img-02.jpg" alt="Image" class="tm-activity-img" />
+              <img src="../static/img/img-02.jpg" style="width:180px; height: 180px;" alt="Image" class="tm-activity-img" />
             </div>
             <div class="tm-activity-block-text">
-              <h3 class="tm-text-blue"> Ayudar a las ancianas a cruzar la calle</h3>
+              <h3 class="tm-text-blue"> Repartimos abrazos vestidos de osos</h3>
               <p>
-                El planeta es importante, pero las personas que lo habitan también, hacemos labores sociales <3.
+                El planeta es importante, pero las personas que lo habitan también, es por eso que hacemos labores sociales <3.
               </p>
             </div>
           </div>
@@ -168,7 +171,7 @@ http://www.tooplate.com/view/2111-pro-line
         <div class="col-lg-6">
           <div class="tm-activity-block">
             <div class="tm-activity-img-container">
-              <img src="../static/img/img-03.jpg" alt="Image" class="tm-activity-img" />
+              <img style="width:180px; height: 180px;" src="../static/img/img-03.png" alt="Image" class="tm-activity-img" />
             </div>
             <div class="tm-activity-block-text">
               <h3 class="tm-text-blue">Promover el pensamiento verde</h3>
@@ -181,7 +184,7 @@ http://www.tooplate.com/view/2111-pro-line
         <div class="col-lg-6">
           <div class="tm-activity-block mr-lg-0 ml-lg-auto">
             <div class="tm-activity-img-container">
-              <img src="../static/img/img-04.jpg" alt="Image" class="tm-activity-img" />
+              <img src="../static/img/img-04.jpg" style="width:180px; height: 180px;" alt="Image" class="tm-activity-img" />
             </div>
             <div class="tm-activity-block-text">
               <h3 class="tm-text-blue"> Recoger basura</h3>
@@ -450,7 +453,7 @@ http://www.tooplate.com/view/2111-pro-line
         }
 
         // Make sticky header
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 120) {
           $(".tm-nav-section").addClass("sticky");
         } else {
           $(".tm-nav-section").removeClass("sticky");
